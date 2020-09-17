@@ -24,7 +24,7 @@ services:
     COMPANY: CloudYuga Technology Pvt. Ltd.
    networks:
     - rsvpnet
-  visualizer:
+ visualizer:
     image: dockersamples/visualizer:stable
     ports:
     - "8080:8080"
